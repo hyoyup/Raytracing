@@ -1,0 +1,39 @@
+README.txt
+
+quick refernce of running 3 tests using:
+Linear: Vector<Shape*>
+KdBVH: Eigen::KdBVH<float, 3, Shape*>
+
+========FULL INPUT===========
+KdBVH: Raytracer starting now...
+
+	time in seconds: 0.437346
+KdBVH: Raytracer finished...
+Linear: Raytracer starting now...
+
+	time in seconds: 181.583
+Linear: Raytracer finished...
+=============================
+
+==========W/O BUNNY=========
+KdBVH: Raytracer starting now...
+
+	time in seconds: 0.242491
+KdBVH: Raytracer finished...
+Linear: Raytracer starting now...
+
+	time in seconds: 1.74047
+Linear: Raytracer finished...
+==============================
+
+========W/O Dwarf+Bunny=======
+KdBVH: Raytracer starting now...
+
+	time in seconds: 0.0992216
+KdBVH: Raytracer finished...
+Linear: Raytracer starting now...
+
+	time in seconds: 0.0532458
+Linear: Raytracer finished...
+==============================
+
